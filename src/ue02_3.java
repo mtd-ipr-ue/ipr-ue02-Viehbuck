@@ -10,7 +10,7 @@ public class ue02_3 {
 
         double hypothenuse = Math.sqrt(x*x + y*y);
 
-        if(hypothenuse >= 4 && x <= 4 && y<=4){
+        if(hypothenuse >= 4 && x <= 4 && y<=4 && x > 0 && y > 0){
             Out.print("innerhalb der grünen Fläche");
         }
         else{
